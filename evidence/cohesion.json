@@ -1,0 +1,51 @@
+{
+  "LegacyClimateController": {
+    "method_fields": {
+      "send": [
+        "data",
+        "logs"
+      ],
+      "count": [
+        "data"
+      ],
+      "report": [
+        "logs"
+      ]
+    },
+    "m": 3,
+    "a": 2,
+    "field_uses": 4,
+    "lcom_hs": 0.5,
+    "tcc": 0.6666666666666666
+  },
+  "ReadingStore": {
+    "method_fields": {
+      "Count.get": [
+        "_readings"
+      ],
+      "Add": [
+        "_readings"
+      ]
+    },
+    "m": 2,
+    "a": 1,
+    "field_uses": 2,
+    "lcom_hs": 0.0,
+    "tcc": 1.0
+  },
+  "DiagnosticLog": {
+    "method_fields": {
+      "Report.get": [
+        "_messages"
+      ],
+      "Record": [
+        "_messages"
+      ]
+    },
+    "m": 2,
+    "a": 1,
+    "field_uses": 2,
+    "lcom_hs": 0.0,
+    "tcc": 1.0
+  }
+}

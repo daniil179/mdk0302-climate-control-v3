@@ -1,0 +1,13 @@
+{
+  "unit": {
+    "total": 29,
+    "passed": 29,
+    "failed": 0
+  },
+  "integration": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0
+  },
+  "legacy_counterexamples": 2
+}

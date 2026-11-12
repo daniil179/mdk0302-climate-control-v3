@@ -1,0 +1,60 @@
+{
+  "scope": "Legacy specimen versus secure controller and technical specification",
+  "findings": [
+    {
+      "id": "AUD01",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 11,
+      "finding": "Public method is not PascalCase",
+      "category": "project-code-style"
+    },
+    {
+      "id": "AUD02",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 11,
+      "finding": "Public method has no XML summary or parameter documentation",
+      "category": "project-documentation"
+    },
+    {
+      "id": "AUD03",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 19,
+      "finding": "Range predicate is always true for all finite decimal values",
+      "category": "logic"
+    },
+    {
+      "id": "AUD04",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 25,
+      "finding": "Humidity is stored without a 0..100 constraint",
+      "category": "validation"
+    },
+    {
+      "id": "AUD05",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 11,
+      "finding": "No device authentication or HMAC verification in the specimen",
+      "category": "security"
+    },
+    {
+      "id": "AUD06",
+      "file": "samples/Climate.Before/LegacyClimateController.cs",
+      "line": 8,
+      "finding": "Controller combines transport, storage and diagnostic state",
+      "category": "structure"
+    }
+  ],
+  "after_checks": {
+    "controller_xml_summary": true,
+    "controller_pascal_case": true,
+    "authorize_policy": true,
+    "validator_injection": true,
+    "ownership_check": true,
+    "rate_limit_attribute": true,
+    "technical_spec_sections": true
+  },
+  "sha256": {
+    "samples/Climate.Before/LegacyClimateController.cs": "56aff0244f65e77442be68723c15fdfde3237c6cc3154ab35e4e974721f31ccf",
+    "src/Climate.Api/Controllers/TelemetryController.cs": "333574e2cee2d801d92600ce94736899e38c6eeaa4a720f13c4d31c3d7182af2"
+  }
+}

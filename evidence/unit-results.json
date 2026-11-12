@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Climate.UnitTests.ValidationTests.U02_InvalidTemperature(t: 85.010000000000005)",
+    "outcome": "Passed",
+    "seconds": 0.000312
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U02_InvalidTemperature(t: -40.009999999999998)",
+    "outcome": "Passed",
+    "seconds": 0.0002875
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U07_BodyTamperingChangesHmac",
+    "outcome": "Passed",
+    "seconds": 0.0044533
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U01_ValidRanges(t: 85, h: 100)",
+    "outcome": "Passed",
+    "seconds": 0.0000681
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U01_ValidRanges(t: 23.5, h: 45)",
+    "outcome": "Passed",
+    "seconds": 0.000361
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U01_ValidRanges(t: -40, h: 0)",
+    "outcome": "Passed",
+    "seconds": 0.0003212
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U03_InvalidHumidity(h: -0.01)",
+    "outcome": "Passed",
+    "seconds": 0.0002403
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U03_InvalidHumidity(h: 100.01000000000001)",
+    "outcome": "Passed",
+    "seconds": 0.0008176
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.B01_ReproducesLegacyRangeDefect(t: 100)",
+    "outcome": "Passed",
+    "seconds": 0.0004019
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.B01_ReproducesLegacyRangeDefect(t: -100)",
+    "outcome": "Passed",
+    "seconds": 0.0017985
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U06_TimeBoundaries(at: \u00222026-11-04T08:50:00Z\u0022, expected: True)",
+    "outcome": "Passed",
+    "seconds": 0.0000519
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U06_TimeBoundaries(at: \u00222026-11-04T09:00:30Z\u0022, expected: True)",
+    "outcome": "Passed",
+    "seconds": 0.0000461
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U06_TimeBoundaries(at: \u00222026-11-04T09:00:00\u0022, expected: False)",
+    "outcome": "Passed",
+    "seconds": 0.0000725
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U06_TimeBoundaries(at: \u00222026-11-04T09:00:31Z\u0022, expected: False)",
+    "outcome": "Passed",
+    "seconds": 0.00021
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U06_TimeBoundaries(at: \u00222026-11-04T08:49:59Z\u0022, expected: False)",
+    "outcome": "Passed",
+    "seconds": 0.0002501
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U04_InvalidSequence(n: 0)",
+    "outcome": "Passed",
+    "seconds": 0.000296
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U04_InvalidSequence(n: 1000000001)",
+    "outcome": "Passed",
+    "seconds": 0.0008848
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U08_EnvelopeWindow(delta: 120, expected: True)",
+    "outcome": "Passed",
+    "seconds": 0.0000288
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U08_EnvelopeWindow(delta: -120, expected: True)",
+    "outcome": "Passed",
+    "seconds": 0.0000569
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U08_EnvelopeWindow(delta: -121, expected: False)",
+    "outcome": "Passed",
+    "seconds": 0.0002281
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U08_EnvelopeWindow(delta: 121, expected: False)",
+    "outcome": "Passed",
+    "seconds": 0.0003339
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U09_MalformedHexRejected",
+    "outcome": "Passed",
+    "seconds": 0.0014446
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U05_InvalidSensor(id: \u0022DVC-001\\n\u0022)",
+    "outcome": "Passed",
+    "seconds": 0.0000854
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U05_InvalidSensor(id: \u0022sensor-1\u0022)",
+    "outcome": "Passed",
+    "seconds": 0.0006245
+  },
+  {
+    "name": "Climate.UnitTests.ValidationTests.U05_InvalidSensor(id: \u0022\u0022)",
+    "outcome": "Passed",
+    "seconds": 0.0494459
+  },
+  {
+    "name": "Climate.UnitTests.RefactoringTests.R01_RefactoredControllerEnforcesRange(t: 100, h: 45, accepted: False)",
+    "outcome": "Passed",
+    "seconds": 0.0000048
+  },
+  {
+    "name": "Climate.UnitTests.RefactoringTests.R01_RefactoredControllerEnforcesRange(t: -40, h: 0, accepted: True)",
+    "outcome": "Passed",
+    "seconds": 0.0000205
+  },
+  {
+    "name": "Climate.UnitTests.RefactoringTests.R01_RefactoredControllerEnforcesRange(t: 23.5, h: 250, accepted: False)",
+    "outcome": "Passed",
+    "seconds": 0.0003611
+  },
+  {
+    "name": "Climate.UnitTests.RefactoringTests.R01_RefactoredControllerEnforcesRange(t: 85, h: 100, accepted: True)",
+    "outcome": "Passed",
+    "seconds": 0.0292801
+  }
+]

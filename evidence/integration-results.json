@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I02_MissingSignatureIsUnauthorized",
+    "outcome": "Passed",
+    "seconds": 0.0302037
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S02_AnotherSensorIdIsForbidden",
+    "outcome": "Passed",
+    "seconds": 0.0241047
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S05_ExpiredEnvelopeIsUnauthorized",
+    "outcome": "Passed",
+    "seconds": 0.0208116
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I07_EfCoreQueryUsesBoundParameter",
+    "outcome": "Passed",
+    "seconds": 0.070574
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S06_FifthRequestIsRateLimited",
+    "outcome": "Passed",
+    "seconds": 0.0523373
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S07_OversizedBodyIsRejected",
+    "outcome": "Passed",
+    "seconds": 0.0172054
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I06_DuplicateSequenceIsConflict",
+    "outcome": "Passed",
+    "seconds": 0.0815069
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S03_DeviceWithoutWriteScopeIsForbidden",
+    "outcome": "Passed",
+    "seconds": 0.0226625
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S09_AuditContainsDecisionButNoSecrets",
+    "outcome": "Passed",
+    "seconds": 0.0327072
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S04_ReplayOfNonceIsUnauthorized",
+    "outcome": "Passed",
+    "seconds": 0.0365958
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I03_PhysicalBoundariesAreAccepted(t: -40, h: 0)",
+    "outcome": "Passed",
+    "seconds": 0.0238601
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I03_PhysicalBoundariesAreAccepted(t: 85, h: 100)",
+    "outcome": "Passed",
+    "seconds": 0.028679
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I01_ValidSignedMeasurementIsPersisted",
+    "outcome": "Passed",
+    "seconds": 0.3348699
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S01_TamperedTemperatureIsRejectedBeforeWrite",
+    "outcome": "Passed",
+    "seconds": 0.0333794
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I04_OutOfRangeIsBadRequest(t: -40.009999999999998, h: 45)",
+    "outcome": "Passed",
+    "seconds": 0.0265215
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I04_OutOfRangeIsBadRequest(t: 23.5, h: 100.01000000000001)",
+    "outcome": "Passed",
+    "seconds": 0.0244861
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.S08_InvalidHexIsUnauthorized",
+    "outcome": "Passed",
+    "seconds": 0.0210557
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I04_OutOfRangeIsBadRequest(t: 23.5, h: -0.01)",
+    "outcome": "Passed",
+    "seconds": 0.0744051
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I04_OutOfRangeIsBadRequest(t: 85.010000000000005, h: 45)",
+    "outcome": "Passed",
+    "seconds": 0.1173068
+  },
+  {
+    "name": "Climate.IntegrationTests.ApiTests.I05_InvalidJsonIsBadRequest",
+    "outcome": "Passed",
+    "seconds": 1.0040783
+  }
+]

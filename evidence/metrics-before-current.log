@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "Climate.Before.LegacyClimateController",
+    "kind": "NamedType",
+    "mi": 75,
+    "cc": 14,
+    "coupling": 8,
+    "sourceLines": 44,
+    "executableLines": 17
+  },
+  {
+    "symbol": "Climate.Before.LegacyClimateController.send(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 58,
+    "cc": 10,
+    "coupling": 6,
+    "sourceLines": 23,
+    "executableLines": 11
+  },
+  {
+    "symbol": "Climate.Before.LegacyClimateController.count()",
+    "kind": "Method",
+    "mi": 83,
+    "cc": 2,
+    "coupling": 2,
+    "sourceLines": 6,
+    "executableLines": 2
+  },
+  {
+    "symbol": "Climate.Before.LegacyClimateController.report()",
+    "kind": "Method",
+    "mi": 82,
+    "cc": 2,
+    "coupling": 2,
+    "sourceLines": 6,
+    "executableLines": 2
+  },
+  {
+    "symbol": "Climate.Before.LegacyReading",
+    "kind": "NamedType",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 1,
+    "executableLines": 0
+  },
+  {
+    "symbol": "Climate.Before.LegacyReading.LegacyReading(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 1,
+    "executableLines": 0
+  }
+]

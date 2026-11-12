@@ -1,0 +1,182 @@
+[
+  {
+    "symbol": "Climate.After.DiagnosticLog",
+    "kind": "NamedType",
+    "mi": 89,
+    "cc": 5,
+    "coupling": 2,
+    "sourceLines": 7,
+    "executableLines": 4
+  },
+  {
+    "symbol": "Climate.After.DiagnosticLog.Report.get",
+    "kind": "Method",
+    "mi": 89,
+    "cc": 2,
+    "coupling": 2,
+    "sourceLines": 1,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.DiagnosticLog.Record(string)",
+    "kind": "Method",
+    "mi": 96,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 1,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.IReadingService",
+    "kind": "NamedType",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 5,
+    "executableLines": 0
+  },
+  {
+    "symbol": "Climate.After.IReadingService.Accept(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 1,
+    "executableLines": 0
+  },
+  {
+    "symbol": "Climate.After.Reading",
+    "kind": "NamedType",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 2,
+    "executableLines": 0
+  },
+  {
+    "symbol": "Climate.After.Reading.Reading(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 100,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 2,
+    "executableLines": 0
+  },
+  {
+    "symbol": "Climate.After.ReadingDiagnostics",
+    "kind": "NamedType",
+    "mi": 72,
+    "cc": 5,
+    "coupling": 3,
+    "sourceLines": 11,
+    "executableLines": 4
+  },
+  {
+    "symbol": "Climate.After.ReadingDiagnostics.Record(Climate.After.Reading, Climate.After.DiagnosticLog)",
+    "kind": "Method",
+    "mi": 72,
+    "cc": 5,
+    "coupling": 3,
+    "sourceLines": 7,
+    "executableLines": 4
+  },
+  {
+    "symbol": "Climate.After.ReadingRules",
+    "kind": "NamedType",
+    "mi": 85,
+    "cc": 6,
+    "coupling": 1,
+    "sourceLines": 6,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.ReadingRules.IsValid(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 85,
+    "cc": 6,
+    "coupling": 1,
+    "sourceLines": 2,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.ReadingService",
+    "kind": "NamedType",
+    "mi": 77,
+    "cc": 3,
+    "coupling": 7,
+    "sourceLines": 20,
+    "executableLines": 7
+  },
+  {
+    "symbol": "Climate.After.ReadingService.ReadingService(Climate.After.ReadingStore, Climate.After.DiagnosticLog)",
+    "kind": "Method",
+    "mi": 85,
+    "cc": 1,
+    "coupling": 2,
+    "sourceLines": 5,
+    "executableLines": 2
+  },
+  {
+    "symbol": "Climate.After.ReadingService.Accept(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 71,
+    "cc": 2,
+    "coupling": 6,
+    "sourceLines": 9,
+    "executableLines": 5
+  },
+  {
+    "symbol": "Climate.After.ReadingStore",
+    "kind": "NamedType",
+    "mi": 93,
+    "cc": 3,
+    "coupling": 2,
+    "sourceLines": 7,
+    "executableLines": 4
+  },
+  {
+    "symbol": "Climate.After.ReadingStore.Count.get",
+    "kind": "Method",
+    "mi": 96,
+    "cc": 1,
+    "coupling": 2,
+    "sourceLines": 1,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.ReadingStore.Add(Climate.After.Reading)",
+    "kind": "Method",
+    "mi": 96,
+    "cc": 1,
+    "coupling": 2,
+    "sourceLines": 1,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.RefactoredClimateController",
+    "kind": "NamedType",
+    "mi": 89,
+    "cc": 3,
+    "coupling": 6,
+    "sourceLines": 12,
+    "executableLines": 3
+  },
+  {
+    "symbol": "Climate.After.RefactoredClimateController.RefactoredClimateController(Climate.After.IReadingService)",
+    "kind": "Method",
+    "mi": 96,
+    "cc": 1,
+    "coupling": 1,
+    "sourceLines": 1,
+    "executableLines": 1
+  },
+  {
+    "symbol": "Climate.After.RefactoredClimateController.Send(string, decimal, decimal, int)",
+    "kind": "Method",
+    "mi": 81,
+    "cc": 2,
+    "coupling": 5,
+    "sourceLines": 6,
+    "executableLines": 2
+  }
+]

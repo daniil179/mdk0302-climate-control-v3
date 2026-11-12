@@ -1,0 +1,13 @@
+  Определение проектов для восстановления...
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Api\Climate.Api.csproj (за 952 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Infrastructure\Climate.Infrastructure.csproj (за 952 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.IntegrationTests\Climate.IntegrationTests.csproj (за 1,19 с).
+  Проектов обновлено для восстановления: 1 из 4.
+  Climate.Core -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Core\bin\Release\net8.0\Climate.Core.dll
+  Climate.Infrastructure -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Infrastructure\bin\Release\net8.0\Climate.Infrastructure.dll
+  Climate.Api -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Api\bin\Release\net8.0\Climate.Api.dll
+  Climate.IntegrationTests -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.IntegrationTests\bin\Release\net8.0\Climate.IntegrationTests.dll
+Тестовый запуск для C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.IntegrationTests\bin\Release\net8.0\Climate.IntegrationTests.dll (.NETCoreApp,Version=v8.0)
+Общее количество тестовых файлов (1), соответствующих указанному шаблону.
+
+Пройден!   : не пройдено     0, пройдено    20, пропущено     0, всего    20, длительность 3 s. - Climate.IntegrationTests.dll (net8.0)

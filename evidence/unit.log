@@ -1,0 +1,13 @@
+  Определение проектов для восстановления...
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\samples\Climate.After\Climate.After.csproj (за 136 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\samples\Climate.Before\Climate.Before.csproj (за 136 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Core\Climate.Core.csproj (за 880 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.UnitTests\Climate.UnitTests.csproj (за 1,16 с).
+  Climate.After -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\samples\Climate.After\bin\Release\net8.0\Climate.After.dll
+  Climate.Core -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\src\Climate.Core\bin\Release\net8.0\Climate.Core.dll
+  Climate.Before -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\samples\Climate.Before\bin\Release\net8.0\Climate.Before.dll
+  Climate.UnitTests -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.UnitTests\bin\Release\net8.0\Climate.UnitTests.dll
+Тестовый запуск для C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0302-pr1\ClimateControl\tests\Climate.UnitTests\bin\Release\net8.0\Climate.UnitTests.dll (.NETCoreApp,Version=v8.0)
+Общее количество тестовых файлов (1), соответствующих указанному шаблону.
+
+Пройден!   : не пройдено     0, пройдено    29, пропущено     0, всего    29, длительность 391 ms. - Climate.UnitTests.dll (net8.0)
